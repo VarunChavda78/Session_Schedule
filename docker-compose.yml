@@ -24,7 +24,7 @@ services:
       dockerfile: Dockerfile.client
     container_name: thursday-session-frontend
     ports:
-      - "3001:80"
+      - "3001:3001"
     depends_on:
       - backend
     restart: unless-stopped
